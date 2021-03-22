@@ -83,7 +83,9 @@
     })
 
     // Fetch search index
-    fetch('/index.json')
+    // fetch( '/index.json')
+    // Adding baseUrl - This URL will work regardless of where this is hosted
+    fetch( {{ .Site.BasreURL }} + '/index.json')
         // parse JSON
         .then(res => res.json())
         // Build Lunr index
