@@ -1,0 +1,106 @@
+<style>
+    .nav {
+        overflow: visible;
+        height: 3rem;
+    }
+    #search {
+        float: right;
+        position: relative;
+        bottom: 0.2rem;
+        padding: 0.5rem 1rem;
+        width: 15rem;
+        border: 1px solid lightgray;
+    }
+
+    #search-results {
+        position: absolute;
+        background: white;
+        box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.35);
+        right: 0;
+    }
+
+    #search-results a {
+        display: block;
+        border-bottom: 1px solid lightgray;
+        width: 12rem;
+        padding: 0.5rem;
+        font-size: 0.75rem;
+        font-weight: bold;
+    }
+
+    #search-results a:hover {
+        background-color: #60aeea;
+        color: white;
+    }
+
+    #search-results.hide {
+        display: none;
+    }
+</style>
+
+<input type="text" id="search" placeholder="Search">
+<div id="search-results" class="hide">
+</div>
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<script>
+
+    const search = document.getElementById("search");
+    const searchResults = document.getElementById("search-results");
+
+    // Show realults only on focus
+    search.addEventListener("focus", e => {
+        searchResults.classList.remove("hide");
+    });
+    search.addEventListener("blur", e => {
+        setTimeout( () => {
+            searchResults.classList.add("hide");
+        }, 200 )
+    });
+
+    // Add results to HTML
+    search.addEventListener("keyup", function() {
+
+        searchResults.innerHTML = '';
+        if (!this.value) return;
+
+        // Preform search from input value
+        let results = window.idx.search( this.value );
+        console.log(results);
+
+        results.forEach(page => {
+
+            let pageRef = page.ref.split('||');
+            console.log(`pageRef: ${pageRef}`);
+            let pageLink = document.createElement("a");
+            pageLink.innerText = pageRef[0];    // page title
+            pageLink.href = pageRef[1];    // page URL
+
+            // console.log(`   pageLink.innerText : ${pageLink.innerText}`);
+            // console.log(`   pageLink.href : ${pageLink.href}`);
+            searchResults.append(pageLink);
+
+        })
+    })
+
+    // Fetch search index
+    fetch('/index.json')
+        // parse JSON
+        .then(res => res.json())
+        // Build Lunr index
+        .then(searchIndex => {
+            console.log(searchIndex);
+            window.idx = lunr(function () {
+                    // We can have only one reference that's returned for a matching search
+                    this.ref('ref')
+                    // We can specify as many fields as we want.
+                    // These fields are what Lunr will actually perform the search on.
+                    this.field('title');
+                    this.field('content');
+
+                    // Adding data to search index
+                    searchIndex.forEach(page => {
+                        this.add(page)
+                    })
+                })
+        })
+</script>

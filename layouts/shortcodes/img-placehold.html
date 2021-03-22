@@ -1,0 +1,5 @@
+<!--get the value of argument with index 0 -->
+{{ $width := .Get 0 }}
+<!--get the value of argument with index 1 -->
+{{ $height := .Get 1 }}
+<img src="https://placehold.it/{{$width}}x{{$height}}" alt="Placeholder Image">

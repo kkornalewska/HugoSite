@@ -1,0 +1,5 @@
+<!-- "-" tells go to strip any whitespace at the start and end of the statement-->
+{{- if .Params.photoautor }}
+<small><i>Autor zdjęcia: {{ .Params.photoautor}}</i></small>
+{{- end }}
+<br><textarea style="width: 100%; font-size: 1.25rem; padding: 1rem" placeholder="Komentarz do '{{ .Title }}'"></textarea>

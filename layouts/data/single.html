@@ -1,0 +1,47 @@
+{{ define "main" }}
+
+<main>
+    STATIC DATA TEST - local file:
+    <hr>
+    {{ range .Site.Data.users }}
+    <strong>{{ .firstName }} {{ .lastName }}</strong><br>
+    <small> {{ range .seminaries }} {{.}}, {{ end }}</small>
+    <hr>
+    {{ end }}
+    <br>
+    <br>
+    <br>
+    DYNAMIC DATA TEST - external resource:
+    <hr>
+    {{ range getJSON "http://jsonplaceholder.typicode.com/photos?_limit=5" }}
+    <img style="float:left;" src="{{ .thumbnailUrl }}" alt="{{ .title }}">
+    {{ end }}
+    <br><br><br><br><br><br><br><br>
+    {{ range getJSON "http://jsonplaceholder.typicode.com/posts?_limit=5" }}
+    <h3>{{ .title | humanize }}</h3>
+    <p>{{ .body }}</p><br>
+    {{ end }}
+
+    <div class="post">
+        {{ partial "single/title.html" . }}
+
+        {{ partial "single/header.html" . }}
+
+        {{ .Content }}
+
+        {{ partial "single/footer.html" . }}
+    </div>
+
+    <div class="pagination">
+        {{- if .PrevPage }}
+        <a href="{{ .PrevPage.RelPermalink }}" class="left arrow">&#8592;</a>
+        {{- end }}
+        {{- if .NextPage }}
+        <a href="{{ .NextPage.RelPermalink }}" class="right arrow">&#8594;</a>
+        {{- end }}
+
+        <a href="#" class="top">Top</a>
+    </div>
+</main>
+
+{{ end }}

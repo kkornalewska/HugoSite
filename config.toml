@@ -1,0 +1,9 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Hugo JAMSite"
+theme = "tale"
+copyright = "2021 - BBR"
+disableKinds = ["section"]
+
+[outputs]
+home = ["HTML", "JSON"]

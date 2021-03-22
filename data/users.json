@@ -1,0 +1,22 @@
+[
+  {
+    "firstName": "Agnieszka",
+    "lastName": "Kałuża",
+    "seminaries": [ "Type ORM", "Nim" ]
+  },
+  {
+    "firstName": "Katarzyna",
+    "lastName": "Kornalewska",
+    "seminaries": [ "Sapper", "Jamstack" ]
+  },
+  {
+    "firstName": "Jonasz",
+    "lastName": "Kozłowski",
+    "seminaries": [ "ParcelJS", "Mint" ]
+  },
+  {
+    "firstName": "Maciej",
+    "lastName": "Tyrcha",
+    "seminaries": [ "RabbitMQ", "Kerberos" ]
+  }
+]

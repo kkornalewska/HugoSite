@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Hugo JAMSite</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on Hugo JAMSite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2021 - BBR</copyright>
+    <lastBuildDate>Fri, 19 Mar 2021 12:18:29 +0100</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A new post with the filename old-post.md</title>
+      <link>http://example.org/posts/new-post/</link>
+      <pubDate>Fri, 19 Mar 2021 12:18:29 +0100</pubDate>
+      
+      <guid>http://example.org/posts/new-post/</guid>
+      <description>Nagłówek posta Treść posta&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>First Post</title>
+      <link>http://example.org/posts/first-post/</link>
+      <pubDate>Wed, 17 Mar 2021 20:34:48 +0100</pubDate>
+      
+      <guid>http://example.org/posts/first-post/</guid>
+      <description>Pierwszy post Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend donec pretium vulputate sapien nec sagittis aliquam. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Fames ac turpis egestas integer eget aliquet nibh praesent. Urna porttitor rhoncus dolor purus non. Mattis molestie a iaculis at erat pellentesque adipiscing. Sodales neque sodales ut etiam sit amet. Amet risus nullam eget felis eget nunc.</description>
+    </item>
+    
+  </channel>
+</rss>

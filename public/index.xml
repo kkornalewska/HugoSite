@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo JAMSite</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Hugo JAMSite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2021 - BBR</copyright>
+    <lastBuildDate>Fri, 19 Mar 2021 12:18:29 +0100</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A new post with the filename old-post.md</title>
+      <link>http://example.org/posts/new-post/</link>
+      <pubDate>Fri, 19 Mar 2021 12:18:29 +0100</pubDate>
+      
+      <guid>http://example.org/posts/new-post/</guid>
+      <description>Nagłówek posta Treść posta&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://example.org/about/</link>
+      <pubDate>Fri, 19 Mar 2021 11:17:19 +0100</pubDate>
+      
+      <guid>http://example.org/about/</guid>
+      <description>About Page Strona abut została utworzona w główym folderze projektu. Do jej wygenerowania zosyał użyty archetyp default.md.
+Zmiana typu strony Aby zmienić typ strony, która nie została utworzona w konkretnej sekcji, tylko na najwyższym poziomie katalogu projektu, należy zmienić wartość parametru &amp;ldquo;type&amp;rdquo; w metryce strony.</description>
+    </item>
+    
+    <item>
+      <title>Page2</title>
+      <link>http://example.org/pages/page2/</link>
+      <pubDate>Wed, 17 Mar 2021 22:36:00 +0100</pubDate>
+      
+      <guid>http://example.org/pages/page2/</guid>
+      <description>Nagłówek strony Treść&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Page1</title>
+      <link>http://example.org/pages/page1/</link>
+      <pubDate>Wed, 17 Mar 2021 22:35:54 +0100</pubDate>
+      
+      <guid>http://example.org/pages/page1/</guid>
+      <description>Nagłówek strony Treść&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>First Photo Page</title>
+      <link>http://example.org/photos/first-photo-page/</link>
+      <pubDate>Wed, 17 Mar 2021 21:53:12 +0100</pubDate>
+      
+      <guid>http://example.org/photos/first-photo-page/</guid>
+      <description>Nagłówek strony Fragment treści
+Nagłówek zdjęcia Pozostała treść&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>First Page</title>
+      <link>http://example.org/first-page/</link>
+      <pubDate>Wed, 17 Mar 2021 20:39:58 +0100</pubDate>
+      
+      <guid>http://example.org/first-page/</guid>
+      <description>Pierwsza strona Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend donec pretium vulputate sapien nec sagittis aliquam. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Fames ac turpis egestas integer eget aliquet nibh praesent. Urna porttitor rhoncus dolor purus non. Mattis molestie a iaculis at erat pellentesque adipiscing. Sodales neque sodales ut etiam sit amet. Amet risus nullam eget felis eget nunc.</description>
+    </item>
+    
+    <item>
+      <title>First Post</title>
+      <link>http://example.org/posts/first-post/</link>
+      <pubDate>Wed, 17 Mar 2021 20:34:48 +0100</pubDate>
+      
+      <guid>http://example.org/posts/first-post/</guid>
+      <description>Pierwszy post Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend donec pretium vulputate sapien nec sagittis aliquam. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Fames ac turpis egestas integer eget aliquet nibh praesent. Urna porttitor rhoncus dolor purus non. Mattis molestie a iaculis at erat pellentesque adipiscing. Sodales neque sodales ut etiam sit amet. Amet risus nullam eget felis eget nunc.</description>
+    </item>
+    
+    <item>
+      <title>Żeglarska przygoda</title>
+      <link>http://example.org/photos/sailing-adventure/</link>
+      <pubDate>Tue, 16 Mar 2021 12:03:58 +0100</pubDate>
+      
+      <guid>http://example.org/photos/sailing-adventure/</guid>
+      <description>Żeglarska przygoda Proin fermentum leo vel orci porta non. Sit amet tellus cras adipiscing enim eu turpis egestas. Ut faucibus pulvinar elementum integer. Sem integer vitae justo eget magna. Urna porttitor rhoncus dolor purus.
+Wyprawa Nulla at volutpat diam ut venenatis tellus in metus. Eu non diam phasellus vestibulum. Donec et odio pellentesque diam volutpat commodo sed. Eleifend quam adipiscing vitae proin sagittis nisl. Consectetur purus ut faucibus pulvinar elementum integer enim neque.</description>
+    </item>
+    
+  </channel>
+</rss>

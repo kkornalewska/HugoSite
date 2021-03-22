@@ -1,0 +1,61 @@
+{{ define "main" }}
+
+<main>
+    <div class="post">
+        <div style="text-align: center"> <small>QNT - BBR</small> </div>
+<!--        {{ partial "single/post-info.html" . }}-->
+
+        TEST
+
+        <hr>
+<!--        1. Site parameters from config file -->
+<!--        <h3>{{ .Site.Title }}</h3>-->
+<!--        <br>-->
+<!--        {{ .Site.Copyright }}-->
+<!--        2. Tags in loop -->
+<!--                {{- range .Params.tags}}-->
+<!--                #{{ . }}-->
+<!--                {{- end}}-->
+<!--        3. Site variables and Page variables-->
+                {{- range .Site.Pages}}
+<!--                {{ . }} <br>-->
+<!--                {{ .Permalink }} <br>-->
+<!--                {{ .Title }} by {{ .Params.Author }}<br>-->
+                {{- end}}
+<!--        4. Custom variables -->
+            {{ $myVariable := "A viariable value"}}
+            <h3>{{ $myVariable }}</h3>
+            {{ $myVariable := "A NEW viariable value"}}
+            <h3>{{ $myVariable }}</h3>
+
+
+        <hr>
+
+
+        {{ partial "single/title.html" . }}
+
+
+
+        {{ partial "tags.html" .Params.tags }}
+
+        {{ partial "single/header.html" . }}
+
+        <div style="padding:1rem; background: powderblue">{{ .Content }}</div>
+
+        {{ partial "comments.html" .}}
+        {{ partial "single/footer.html" . }}
+    </div>
+
+    <div class="pagination">
+        {{- if .PrevPage }}
+        <a href="{{ .PrevPage.RelPermalink }}" class="left arrow">&#8592;</a>
+        {{- end }}
+        {{- if .NextPage }}
+        <a href="{{ .NextPage.RelPermalink }}" class="right arrow">&#8594;</a>
+        {{- end }}
+
+        <a href="#" class="top">Top</a>
+    </div>
+</main>
+
+{{ end }}

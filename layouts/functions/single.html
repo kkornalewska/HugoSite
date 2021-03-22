@@ -1,0 +1,53 @@
+{{ define "main" }}
+
+<main>
+
+    <div class="post">
+        <div style="text-align: center"> <small>QNT - BBR</small> </div>
+        <!--        {{ partial "single/post-info.html" . }}-->
+        {{ partial "single/title.html" . }}
+
+        {{ partial "single/header.html" . }}
+
+
+        FUNCTION TEST
+        <hr>
+        20 > 10 ?     <strong>{{ if gt 20 10 }} YES {{ else }} NO {{ end }}</strong><br>
+        20 > 10 ?     <strong>{{ cond (gt 20 10) "YES" "NO" }}</strong>
+        <hr>
+        {{humanize "this-is-text-written-with-dashes"}}<br>
+        {{md5 "this-is-text-written-with-dashes"}}<br>
+        <hr>
+        {{ split "one, two, three" "," }}<br>
+        {{ range (split "one, two, three" ",")}}
+<!--         {{ . }}-->
+         {{ humanize . }}<br>
+        {{ end }}
+        <hr>
+<!--        {{ .GetPage "about" }}-->
+        {{ .GetPage "/photos/sailing-adventure" }} <br>
+        {{ (.GetPage "/photos/sailing-adventure").Title }} <br>
+
+        {{ with (.GetPage "/photos/sailing-adventure") }}
+        Page {{.Title }} created by {{ .Params.Author }}
+        {{ end }}
+
+        <hr>
+
+        <!--        {{ partial "comments.html" .}}-->
+        {{ partial "single/footer.html" . }}
+    </div>
+
+    <div class="pagination">
+        {{- if .PrevPage }}
+        <a href="{{ .PrevPage.RelPermalink }}" class="left arrow">&#8592;</a>
+        {{- end }}
+        {{- if .NextPage }}
+        <a href="{{ .NextPage.RelPermalink }}" class="right arrow">&#8594;</a>
+        {{- end }}
+
+        <a href="#" class="top">Top</a>
+    </div>
+</main>
+
+{{ end }}
