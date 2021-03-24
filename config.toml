@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://kkornalewska.github.io/HugoSite/"
 languageCode = "en-us"
 title = "Hugo JAMSite"
 theme = "tale"
