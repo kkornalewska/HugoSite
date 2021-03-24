@@ -1,7 +1,7 @@
 baseURL = ""
 languageCode = "en-us"
 title = "Hugo JAMSite"
-remote_theme = "tale"
+theme = "tale"
 copyright = "2021 - BBR"
 disableKinds = ["section"]
 
