@@ -1,7 +1,7 @@
 ---
 title: "First Page"
 date: 2021-03-17T20:39:58+01:00
-draft: true
+draft: false
 ---
 
 # Pierwsza strona 

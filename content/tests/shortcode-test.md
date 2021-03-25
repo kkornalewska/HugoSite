@@ -1,7 +1,7 @@
 ---
 title: "Shortcode Test"
 date: 2021-03-19T16:13:39+01:00
-draft: true
+draft: false
 ---
 
 # SHORTCODE TEST

@@ -3,7 +3,7 @@ title: "Żeglarska przygoda"
 date: 2021-03-16T12:03:58+01:00
 author: sailingTeam
 photoautor: Adam Nowak
-draft: true
+draft: false
 tags: ['zdjęcie', 'żeglarstwo', 'przygoda']
 ---
 

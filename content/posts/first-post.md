@@ -2,7 +2,7 @@
 title: "First Post"
 date: 2021-03-17T20:34:48+01:00
 author: Katarzyna Kornalewska
-draft: true
+draft: false
 ---
 
 # Pierwszy post
