@@ -2,38 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Hugo JAMSite</title>
-    <link>http://example.org/tags/</link>
+    <link>https://kkornalewska.github.io/HugoSite/tags/</link>
     <description>Recent content in Tags on Hugo JAMSite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>2021 - BBR</copyright>
-    <lastBuildDate>Tue, 16 Mar 2021 12:03:58 +0100</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>przygoda</title>
-      <link>http://example.org/tags/przygoda/</link>
-      <pubDate>Tue, 16 Mar 2021 12:03:58 +0100</pubDate>
-      
-      <guid>http://example.org/tags/przygoda/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>zdjęcie</title>
-      <link>http://example.org/tags/zdj%C4%99cie/</link>
-      <pubDate>Tue, 16 Mar 2021 12:03:58 +0100</pubDate>
-      
-      <guid>http://example.org/tags/zdj%C4%99cie/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>żeglarstwo</title>
-      <link>http://example.org/tags/%C5%BCeglarstwo/</link>
-      <pubDate>Tue, 16 Mar 2021 12:03:58 +0100</pubDate>
-      
-      <guid>http://example.org/tags/%C5%BCeglarstwo/</guid>
-      <description></description>
-    </item>
-    
+    <copyright>2021 - BBR</copyright><atom:link href="https://kkornalewska.github.io/HugoSite/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
