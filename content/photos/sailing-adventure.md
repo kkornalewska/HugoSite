@@ -15,6 +15,7 @@ dolor purus.
 ## Wyprawa
 ![Sail adventure](/sailing.jpg)
 
+
 Nulla at volutpat diam ut venenatis tellus in metus. Eu non diam phasellus vestibulum. 
 Donec et odio pellentesque diam volutpat commodo sed. Eleifend quam adipiscing vitae proin sagittis 
 nisl. Consectetur purus ut faucibus pulvinar elementum integer enim neque. Cursus turpis massa 

@@ -10,6 +10,6 @@ draft: false
 Fragment treści
 
 ## Nagłówek zdjęcia
-![Foto](/https://placehold.it/1000x500)
+![Foto](https://placehold.it/1000x500)
 
 Pozostała treść...
