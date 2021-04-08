@@ -1,5 +1,5 @@
 # baseURL = "https://sharp-snyder-ac4d75.netlify.app/"
-baseURL = "http://kkornalewska.github.io/HugoSite/"
+baseURL = "https://kkornalewska.github.io/HugoSite/"
 languageCode = "en-us"
 title = "Hugo JAMSite"
 theme = "tale"
