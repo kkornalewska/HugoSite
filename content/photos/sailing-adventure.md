@@ -13,7 +13,7 @@ Ut faucibus pulvinar elementum integer. Sem integer vitae justo eget magna. Urna
 dolor purus. 
 
 ## Wyprawa
-![Sail adventure](/sailing.jpg)
+![Sail adventure]({{< base url="/sailing.jpg" >}})
 
 
 Nulla at volutpat diam ut venenatis tellus in metus. Eu non diam phasellus vestibulum. 
