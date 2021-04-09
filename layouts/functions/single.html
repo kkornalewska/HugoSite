@@ -13,7 +13,7 @@
         FUNCTION TEST
         <hr>
         20 > 10 ?     <strong>{{ if gt 20 10 }} YES {{ else }} NO {{ end }}</strong><br>
-        20 > 10 ?     <strong>{{ cond (gt 20 10) "YES" "NO" }}</strong>
+        20 < 10 ?     <strong>{{ cond (lt 20 10) "YES" "NO" }}</strong>
         <hr>
         {{humanize "this-is-text-written-with-dashes"}}<br>
         {{md5 "this-is-text-written-with-dashes"}}<br>

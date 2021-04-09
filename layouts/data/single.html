@@ -1,6 +1,8 @@
 {{ define "main" }}
 
 <main>
+    <br>
+    <br>
     STATIC DATA TEST - local file:
     <hr>
     {{ range .Site.Data.users }}
@@ -8,7 +10,6 @@
     <small> {{ range .seminaries }} {{.}}, {{ end }}</small>
     <hr>
     {{ end }}
-    <br>
     <br>
     <br>
     DYNAMIC DATA TEST - external resource:
