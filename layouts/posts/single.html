@@ -10,7 +10,9 @@
 
         {{ .Content }}
 
-        {{ partial "comments.html" .}}
+<!--        {{ partial "comments.html" .}}-->
+        {{ partial "disqus.html" .}}
+
         {{ partial "single/footer.html" . }}
     </div>
 
