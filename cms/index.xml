@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CMS on Hugo JAMSite</title>
+    <link>https://sharp-snyder-ac4d75.netlify.app/cms/</link>
+    <description>Recent content in CMS on Hugo JAMSite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2021 - BBR</copyright>
+    <lastBuildDate>Fri, 09 Apr 2021 12:19:17 +0000</lastBuildDate><atom:link href="https://sharp-snyder-ac4d75.netlify.app/cms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>nowa strona</title>
+      <link>https://sharp-snyder-ac4d75.netlify.app/cms/nowa-strona/</link>
+      <pubDate>Fri, 09 Apr 2021 12:19:17 +0000</pubDate>
+      
+      <guid>https://sharp-snyder-ac4d75.netlify.app/cms/nowa-strona/</guid>
+      <description>Treść nowej strony</description>
+    </item>
+    
+    <item>
+      <title>CMS - Premium Page1</title>
+      <link>https://sharp-snyder-ac4d75.netlify.app/cms/premium/cms-premium-page1/</link>
+      <pubDate>Fri, 26 Mar 2021 16:26:09 +0000</pubDate>
+      
+      <guid>https://sharp-snyder-ac4d75.netlify.app/cms/premium/cms-premium-page1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CMS - Page2</title>
+      <link>https://sharp-snyder-ac4d75.netlify.app/cms/cms-page2/</link>
+      <pubDate>Fri, 26 Mar 2021 16:25:24 +0000</pubDate>
+      
+      <guid>https://sharp-snyder-ac4d75.netlify.app/cms/cms-page2/</guid>
+      <description>Mauris augue neque gravida Mauris augue neque gravida in fermentum et sollicitudin ac orci. Ut consequat semper viverra nam libero justo laoreet sit. Tempus imperdiet nulla malesuada pellentesque elit eget gravida. In ante metus dictum at tempor commodo ullamcorper. Egestas maecenas pharetra convallis posuere morbi. In nulla posuere sollicitudin aliquam. Arcu cursus euismod quis viverra nibh cras pulvinar. Enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Tincidunt eget nullam non nisi est sit.</description>
+    </item>
+    
+    <item>
+      <title>CMS - Page1</title>
+      <link>https://sharp-snyder-ac4d75.netlify.app/cms/cms-page1/</link>
+      <pubDate>Thu, 18 Mar 2021 16:24:05 +0000</pubDate>
+      
+      <guid>https://sharp-snyder-ac4d75.netlify.app/cms/cms-page1/</guid>
+      <description>Tortor at auctor urna nunc Tortor at auctor urna nunc id cursus metus aliquam eleifend. Tellus mauris a diam maecenas sed. Non quam lacus suspendisse faucibus interdum posuere lorem. Sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra. Nunc aliquet bibendum enim facilisis gravida. Convallis aenean et tortor at risus viverra adipiscing at in. Bibendum arcu vitae elementum curabitur vitae nunc sed velit. Pulvinar sapien et ligula ullamcorper malesuada proin libero.</description>
+    </item>
+    
+  </channel>
+</rss>

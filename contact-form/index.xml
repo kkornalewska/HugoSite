@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contact-forms on Hugo JAMSite</title>
+    <link>https://sharp-snyder-ac4d75.netlify.app/contact-form/</link>
+    <description>Recent content in Contact-forms on Hugo JAMSite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2021 - BBR</copyright>
+    <lastBuildDate>Sun, 21 Mar 2021 16:25:16 +0100</lastBuildDate><atom:link href="https://sharp-snyder-ac4d75.netlify.app/contact-form/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Contact Form</title>
+      <link>https://sharp-snyder-ac4d75.netlify.app/contact-form/first-contact-form/</link>
+      <pubDate>Sun, 21 Mar 2021 16:25:16 +0100</pubDate>
+      
+      <guid>https://sharp-snyder-ac4d75.netlify.app/contact-form/first-contact-form/</guid>
+      <description>Nagłówek strony Treść&amp;hellip;</description>
+    </item>
+    
+  </channel>
+</rss>

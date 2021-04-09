@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Hugo JAMSite</title>
+    <link>https://sharp-snyder-ac4d75.netlify.app/pages/</link>
+    <description>Recent content in Pages on Hugo JAMSite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2021 - BBR</copyright>
+    <lastBuildDate>Wed, 17 Mar 2021 22:36:00 +0100</lastBuildDate><atom:link href="https://sharp-snyder-ac4d75.netlify.app/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Page2</title>
+      <link>https://sharp-snyder-ac4d75.netlify.app/pages/page2/</link>
+      <pubDate>Wed, 17 Mar 2021 22:36:00 +0100</pubDate>
+      
+      <guid>https://sharp-snyder-ac4d75.netlify.app/pages/page2/</guid>
+      <description>Nagłówek strony Treść&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Page1</title>
+      <link>https://sharp-snyder-ac4d75.netlify.app/pages/page1/</link>
+      <pubDate>Wed, 17 Mar 2021 22:35:54 +0100</pubDate>
+      
+      <guid>https://sharp-snyder-ac4d75.netlify.app/pages/page1/</guid>
+      <description>Nagłówek strony Treść&amp;hellip;</description>
+    </item>
+    
+  </channel>
+</rss>

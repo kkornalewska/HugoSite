@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Premia on Hugo JAMSite</title>
+    <link>https://sharp-snyder-ac4d75.netlify.app/premium/</link>
+    <description>Recent content in Premia on Hugo JAMSite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2021 - BBR</copyright>
+    <lastBuildDate>Sun, 21 Mar 2021 22:35:33 +0100</lastBuildDate><atom:link href="https://sharp-snyder-ac4d75.netlify.app/premium/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Premium Article</title>
+      <link>https://sharp-snyder-ac4d75.netlify.app/premium/first-premium-article/</link>
+      <pubDate>Sun, 21 Mar 2021 22:35:33 +0100</pubDate>
+      
+      <guid>https://sharp-snyder-ac4d75.netlify.app/premium/first-premium-article/</guid>
+      <description>First premium article Treść&amp;hellip;</description>
+    </item>
+    
+  </channel>
+</rss>

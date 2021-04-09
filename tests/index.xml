@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tests on Hugo JAMSite</title>
+    <link>https://sharp-snyder-ac4d75.netlify.app/tests/</link>
+    <description>Recent content in Tests on Hugo JAMSite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2021 - BBR</copyright>
+    <lastBuildDate>Fri, 19 Mar 2021 16:13:39 +0100</lastBuildDate><atom:link href="https://sharp-snyder-ac4d75.netlify.app/tests/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shortcode Test</title>
+      <link>https://sharp-snyder-ac4d75.netlify.app/tests/shortcode-test/</link>
+      <pubDate>Fri, 19 Mar 2021 16:13:39 +0100</pubDate>
+      
+      <guid>https://sharp-snyder-ac4d75.netlify.app/tests/shortcode-test/</guid>
+      <description>SHORTCODE TEST   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend donec pretium vulputate sapien nec sagittis aliquam. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Fames ac turpis egestas integer eget aliquet nibh praesent. Urna porttitor rhoncus dolor purus non. Mattis molestie a iaculis at erat pellentesque adipiscing. Sodales neque sodales ut etiam sit amet. Amet risus nullam eget felis eget nunc.</description>
+    </item>
+    
+    <item>
+      <title>Assets Test</title>
+      <link>https://sharp-snyder-ac4d75.netlify.app/tests/assets-test/</link>
+      <pubDate>Fri, 19 Mar 2021 15:07:38 +0100</pubDate>
+      
+      <guid>https://sharp-snyder-ac4d75.netlify.app/tests/assets-test/</guid>
+      <description>html syntax highlighting &amp;lt;h1 class=&amp;#34;post-title&amp;#34; style=&amp;#34;color:{{ $titleColor }};&amp;#34;&amp;gt;{{ .Title }}&amp;lt;/h1&amp;gt; &amp;lt;div class=&amp;#34;post-line&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; js syntax highlighting function () { return(&amp;#39;JS is the best!&amp;#39;); }  </description>
+    </item>
+    
+    <item>
+      <title>Data Test</title>
+      <link>https://sharp-snyder-ac4d75.netlify.app/tests/data-test/</link>
+      <pubDate>Fri, 19 Mar 2021 15:07:38 +0100</pubDate>
+      
+      <guid>https://sharp-snyder-ac4d75.netlify.app/tests/data-test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functions Test</title>
+      <link>https://sharp-snyder-ac4d75.netlify.app/tests/functions-test/</link>
+      <pubDate>Fri, 19 Mar 2021 15:07:38 +0100</pubDate>
+      
+      <guid>https://sharp-snyder-ac4d75.netlify.app/tests/functions-test/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

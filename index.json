@@ -1,0 +1,91 @@
+[
+  {
+    "ref": "nowa strona||https://sharp-snyder-ac4d75.netlify.app/cms/nowa-strona/",
+    "title": "nowa strona",
+    "content": "[Treść nowej strony]"
+  },
+  {
+    "ref": "Test||https://sharp-snyder-ac4d75.netlify.app/test/",
+    "title": "Test",
+    "content": "[Nagłówek strony TEST 2 TEST 2]"
+  },
+  {
+    "ref": "CMS - Premium Page1||https://sharp-snyder-ac4d75.netlify.app/cms/premium/cms-premium-page1/",
+    "title": "CMS - Premium Page1",
+    "content": "[]"
+  },
+  {
+    "ref": "CMS - Page2||https://sharp-snyder-ac4d75.netlify.app/cms/cms-page2/",
+    "title": "CMS - Page2",
+    "content": "[Mauris augue neque gravida Mauris augue neque gravida in fermentum et sollicitudin ac orci. Ut consequat semper viverra nam libero justo laoreet sit. Tempus imperdiet nulla malesuada pellentesque elit eget gravida. In ante metus dictum at tempor commodo ullamcorper. Egestas maecenas pharetra convallis posuere morbi. In nulla posuere sollicitudin aliquam. Arcu cursus euismod quis viverra nibh cras pulvinar. Enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Tincidunt eget nullam non nisi est sit. Et ligula ullamcorper malesuada proin libero nunc consequat. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec. Purus non enim praesent elementum facilisis. Consequat ac felis donec et odio pellentesque diam. Turpis tincidunt id aliquet risus feugiat.]"
+  },
+  {
+    "ref": "First Premium Article||https://sharp-snyder-ac4d75.netlify.app/premium/first-premium-article/",
+    "title": "First Premium Article",
+    "content": "[First premium article Treść&hellip;]"
+  },
+  {
+    "ref": "First Contact Form||https://sharp-snyder-ac4d75.netlify.app/contact-form/first-contact-form/",
+    "title": "First Contact Form",
+    "content": "[Nagłówek strony Treść&hellip;]"
+  },
+  {
+    "ref": "Shortcode Test||https://sharp-snyder-ac4d75.netlify.app/tests/shortcode-test/",
+    "title": "Shortcode Test",
+    "content": "[SHORTCODE TEST Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend donec pretium vulputate sapien nec sagittis aliquam. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Fames ac turpis egestas integer eget aliquet nibh praesent. Urna porttitor rhoncus dolor purus non. Mattis molestie a iaculis at erat pellentesque adipiscing. Sodales neque sodales ut etiam sit amet. Amet risus nullam eget felis eget nunc. Consectetur lorem donec massa sapien faucibus et molestie. Ullamcorper eget nulla facilisi etiam dignissim diam. Integer enim neque volutpat ac tincidunt vitae. Enim eu turpis egestas pretium. Ultrices sagittis orci a scelerisque purus semper eget duis at. Euismod nisi porta lorem mollis aliquam. Lobortis feugiat vivamus at augue eget arcu dictum. Interdum varius sit amet mattis vulputate enim nulla aliquet. Fames ac turpis egestas sed tempus urna et pharetra pharetra. Est sit amet facilisis magna. html syntax highlighting &lt;h1 class=&#34;post-title&#34; style=&#34;color:{{ $titleColor }};&#34; &gt;{{ .Title }}&lt;/h1&gt; &lt;div class=&#34;post-line&#34;&gt;&lt;/div&gt; js syntax highlighting function () { return(&#39;JS is the best!&#39;); } custom shortcodes File: layouts/shortcodes/img-placehold.html:]"
+  },
+  {
+    "ref": "Assets Test||https://sharp-snyder-ac4d75.netlify.app/tests/assets-test/",
+    "title": "Assets Test",
+    "content": "[html syntax highlighting &lt;h1 class=&#34;post-title&#34; style=&#34;color:{{ $titleColor }};&#34;&gt;{{ .Title }}&lt;/h1&gt; &lt;div class=&#34;post-line&#34;&gt;&lt;/div&gt; js syntax highlighting function () { return(&#39;JS is the best!&#39;); }]"
+  },
+  {
+    "ref": "Data Test||https://sharp-snyder-ac4d75.netlify.app/tests/data-test/",
+    "title": "Data Test",
+    "content": "[]"
+  },
+  {
+    "ref": "Functions Test||https://sharp-snyder-ac4d75.netlify.app/tests/functions-test/",
+    "title": "Functions Test",
+    "content": "[]"
+  },
+  {
+    "ref": "A new post with the filename old-post.md||https://sharp-snyder-ac4d75.netlify.app/posts/new-post/",
+    "title": "A new post with the filename old-post.md",
+    "content": "[Nagłówek posta Treść posta&hellip;]"
+  },
+  {
+    "ref": "About||https://sharp-snyder-ac4d75.netlify.app/about/",
+    "title": "About",
+    "content": "[About Page Strona abut została utworzona w główym folderze projektu. Do jej wygenerowania zosyał użyty archetyp default.md. Zmiana typu strony Aby zmienić typ strony, która nie została utworzona w konkretnej sekcji, tylko na najwyższym poziomie katalogu projektu, należy zmienić wartość parametru &ldquo;type&rdquo; w metryce strony.]"
+  },
+  {
+    "ref": "CMS - Page1||https://sharp-snyder-ac4d75.netlify.app/cms/cms-page1/",
+    "title": "CMS - Page1",
+    "content": "[Tortor at auctor urna nunc Tortor at auctor urna nunc id cursus metus aliquam eleifend. Tellus mauris a diam maecenas sed. Non quam lacus suspendisse faucibus interdum posuere lorem. Sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra. Nunc aliquet bibendum enim facilisis gravida. Convallis aenean et tortor at risus viverra adipiscing at in. Bibendum arcu vitae elementum curabitur vitae nunc sed velit. Pulvinar sapien et ligula ullamcorper malesuada proin libero. Rutrum quisque non tellus orci ac auctor augue mauris augue. Porttitor massa id neque aliquam. Purus sit amet luctus venenatis lectus magna fringilla urna. Amet nisl purus in mollis nunc sed id. Massa vitae tortor condimentum lacinia quis vel eros donec. Luctus Luctus venenatis lectus magna fringilla urna porttitor rhoncus. Penatibus et magnis dis parturient montes nascetur. Cursus mattis molestie a iaculis at erat pellentesque adipiscing commodo.]"
+  },
+  {
+    "ref": "Page2||https://sharp-snyder-ac4d75.netlify.app/pages/page2/",
+    "title": "Page2",
+    "content": "[Nagłówek strony Treść&hellip;]"
+  },
+  {
+    "ref": "Page1||https://sharp-snyder-ac4d75.netlify.app/pages/page1/",
+    "title": "Page1",
+    "content": "[Nagłówek strony Treść&hellip;]"
+  },
+  {
+    "ref": "First Photo Page||https://sharp-snyder-ac4d75.netlify.app/photos/first-photo-page/",
+    "title": "First Photo Page",
+    "content": "[Nagłówek strony Fragment treści Nagłówek zdjęcia Pozostała treść&hellip;]"
+  },
+  {
+    "ref": "First Post||https://sharp-snyder-ac4d75.netlify.app/posts/first-post/",
+    "title": "First Post",
+    "content": "[Pierwszy post Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend donec pretium vulputate sapien nec sagittis aliquam. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Fames ac turpis egestas integer eget aliquet nibh praesent. Urna porttitor rhoncus dolor purus non. Mattis molestie a iaculis at erat pellentesque adipiscing. Sodales neque sodales ut etiam sit amet. Amet risus nullam eget felis eget nunc. Consectetur lorem donec massa sapien faucibus et molestie. Ullamcorper eget nulla facilisi etiam dignissim diam. Integer enim neque volutpat ac tincidunt vitae. Enim eu turpis egestas pretium. Ultrices sagittis orci a scelerisque purus semper eget duis at. Euismod nisi porta lorem mollis aliquam. Lobortis feugiat vivamus at augue eget arcu dictum. Interdum varius sit amet mattis vulputate enim nulla aliquet. Fames ac turpis egestas sed tempus urna et pharetra pharetra. Est sit amet facilisis magna.]"
+  },
+  {
+    "ref": "Żeglarska przygoda||https://sharp-snyder-ac4d75.netlify.app/photos/sailing-adventure/",
+    "title": "Żeglarska przygoda",
+    "content": "[Żeglarska przygoda Proin fermentum leo vel orci porta non. Sit amet tellus cras adipiscing enim eu turpis egestas. Ut faucibus pulvinar elementum integer. Sem integer vitae justo eget magna. Urna porttitor rhoncus dolor purus. Wyprawa Nulla at volutpat diam ut venenatis tellus in metus. Eu non diam phasellus vestibulum. Donec et odio pellentesque diam volutpat commodo sed. Eleifend quam adipiscing vitae proin sagittis nisl. Consectetur purus ut faucibus pulvinar elementum integer enim neque. Cursus turpis massa tincidunt dui ut. Donec ultrices tincidunt arcu non sodales neque. Odio aenean sed adipiscing diam. Velit ut tortor pretium viverra suspendisse.]"
+  }]
